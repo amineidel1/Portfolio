@@ -1,0 +1,141 @@
+export const contactInfo = {
+  email: 'amineidel.ai@gmail.com',
+  phone: '+33 656788633',
+  links: {
+    instagram: 'https://www.instagram.com/amineidelhaj/',
+    linkedin: 'https://www.linkedin.com/in/amine-idelhaj/',
+    github: 'https://github.com/amineidel1',
+  },
+};
+
+export const projects = [
+  {
+    id: 1,
+    title: 'Music Recommendation System',
+    description: 'Collection et prétraitement de données musicales avec Pandas. Application de SVD pour le modèle de recommandation. Optimisation via GridSearchCV. Interface Streamlit.',
+    image: '/images/about/1.png',
+    link: 'https://github.com/amineidel1/Music_Recommandation_System',
+  },
+  {
+    id: 2,
+    title: 'Detection of Retinal Diseases',
+    description: 'Transfer learning avec Tensorflow et VGG16 sur images rétiniennes médicales. Interface Django pour la prédiction des maladies rétiniennes.',
+    image: '/images/about/2.webp',
+    link: 'https://github.com/amineidel1/OctDiagnostic',
+  },
+  {
+    id: 3,
+    title: 'Analyzing Stock Market Values',
+    description: 'Acquisition et transformation des données avec PySpark. Analyse en temps réel via Spark Streaming. Intégration Kafka, Hadoop. Stockage SQL et NoSQL.',
+    image: '/images/about/Analyzing-Stock-Market-Values.webp',
+    link: 'https://github.com/amineidel1/Analyzing-Stock-Market-Values',
+  },
+  {
+    id: 4,
+    title: 'Automated Online Exam Monitoring',
+    description: 'Collecte de flux vidéo pour examens en ligne. Traitement d\'images en temps réel avec OpenCV et YOLOv4. Interface web Django. Monitoring automatisé de l\'intégrité des examens.',
+    image: '/images/projects/1.jpg',
+    link: 'https://github.com/amineidel1/based-online-monitoring',
+  },
+  {
+    id: 5,
+    title: 'ADDICTEST',
+    description: 'Prédiction du risque d\'addiction en milieu universitaire. SVM et régression logistique. Analyse exploratoire avec Sklearn-Seaborn. Interface Django. Gestion de graphes avec Neo4j.',
+    image: '/images/projects/Addi.png',
+    link: 'https://github.com/amineidel1/ADDICTEST',
+  },
+  {
+    id: 6,
+    title: 'Sentiment Analysis of Product Reviews',
+    description: 'Collecte d\'avis clients, prétraitement avec NLTK et spaCy. Analyse de sentiment via modèles NLP. Visualisation des tendances avec PowerBI.',
+    image: '/images/projects/2.jpg',
+    link: '#',
+  },
+  {
+    id: 7,
+    title: 'Platform for Attack Detection in IoT',
+    description: 'Infrastructure data et web pour la détection d\'attaques en environnement IoT. Intégration de modèles LLM. Fine-tuning et distillation de BERT.',
+    image: '/images/projects/Platform for Attack Detection in IoT.png',
+    link: '#',
+  },
+  {
+    id: 8,
+    title: 'Document & Portfolio Management (AI + Blockchain)',
+    description: 'Intégration blockchain Solidity pour la sécurité des données. Analyse financière avec backtests et séries temporelles. Interface Streamlit. Hébergement sécurisé AWS.',
+    image: '/images/projects/Blockchain.png',
+    link: '#',
+  },
+  {
+    id: 9,
+    title: 'RAG & Mistral LLM for Audit Documents',
+    description: 'API Python intégrant RAG et Mistral LLM pour analyser automatiquement les documents d\'audit et extraire les insights clés. Architecture full-stack scalable.',
+    image: '/images/projects/Audit.png',
+    link: '#',
+  },
+];
+
+export const skills = [
+  {
+    id: 1,
+    title: 'Python',
+    description: 'Proficient in Python for data analysis, automation, and building machine learning models with libraries like Pandas, NumPy, and Scikit-learn.',
+    image: '/images/skills/1.png',
+    link: 'https://www.w3schools.com/python/',
+  },
+  {
+    id: 2,
+    title: 'Machine Learning',
+    description: 'Skilled in machine learning, building and optimizing models using algorithms like regression, decision trees, and neural networks with Scikit-learn and TensorFlow.',
+    image: '/images/skills/machine_learning.png',
+    link: 'https://www.coursera.org/learn/machine-learning-with-python',
+  },
+  {
+    id: 3,
+    title: 'Data Visualization',
+    description: 'Experienced in data visualization using Matplotlib, Seaborn, Neo4j and Plotly to create clear and insightful visual representations of complex datasets.',
+    image: '/images/skills/2.png',
+    link: 'https://www.kaggle.com/learn/data-visualization',
+  },
+  {
+    id: 4,
+    title: 'SQL & Databases',
+    description: 'Experienced in SQL Server, MySQL, MongoDB, Oracle for data querying, manipulation, and database management.',
+    image: '/images/skills/3.png',
+    link: 'https://openclassrooms.com/fr/courses/6971126-implementez-vos-bases-de-donnees-relationnelles-avec-sql',
+  },
+  {
+    id: 5,
+    title: 'Data Storytelling',
+    description: 'Transforming complex data into compelling narratives with Tableau, PowerBI, Talend ETL and Excel.',
+    image: '/images/skills/4.png',
+    link: '#',
+  },
+  {
+    id: 6,
+    title: 'NLP',
+    description: 'Natural Language Processing with NLTK, SpaCy, Sentence-Transformers for text analysis and sentiment analysis.',
+    image: '/images/skills/machine_learning.png',
+    link: '#',
+  },
+  {
+    id: 7,
+    title: 'Big Data',
+    description: 'Apache Spark, Hadoop for distributed processing and large-scale data analytics.',
+    image: '/images/skills/1.png',
+    link: '#',
+  },
+  {
+    id: 8,
+    title: 'Computer Vision',
+    description: 'OpenCV, Scikit-image, OCR for image processing and real-time object detection.',
+    image: '/images/skills/2.png',
+    link: '#',
+  },
+  {
+    id: 9,
+    title: 'Cloud & Deploy',
+    description: 'AWS, Google Colab. Déploiement avec Flask, Django et Streamlit.',
+    image: '/images/skills/3.png',
+    link: '#',
+  },
+];
